@@ -1,0 +1,86 @@
+.haut_de_page{
+ display: flex;
+justify-content:space-around;
+margin-top: 40px;
+}
+.demande{
+     display: flex;
+    justify-content:space-evenly;
+
+}
+.informations{
+    display: flex;
+    justify-content:space-evenly;
+    margin-bottom: 100px;
+}
+.produits{
+    display: flex;
+flex-direction: column;
+align-items: center;
+ 
+}
+.bouton{
+    display: flex;
+justify-content: center;
+margin-left: 450px;
+}
+button:hover{
+    cursor: pointer;
+}
+button{
+    padding: 10px 20px 10px 20px;
+    font-size: 24px;
+    background: #C4C4C4;
+    margin: 40px 0 60px 120px;
+}
+input{
+    padding-right: 40px;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+label{
+    display:block;
+    width: 150px;
+    line-height: 2em;
+    font-size: 24px;
+}
+label[for="produit"]{
+    display: block ruby;
+}
+input[type="number"]{
+    margin-left: 100px;
+    padding: 2px;
+    
+}
+h1{
+    font-size: 64px;
+    margin: 0;
+    margin-left: 40px;
+
+}
+h2{
+    font-size: 48px;
+}
+.haut_de_page p{
+    font-size: 36px;
+    margin: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.demande p{
+    font-size: 24px;
+}
+.demande{
+    margin-bottom: 60px;
+    margin-top: 90px;
+}
+body{
+    background-color: #D9D9D6;
+}
+.connex{
+    margin-top: 40px;
+}
+.connex img{
+    border-radius: 30px
+}
